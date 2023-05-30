@@ -1,0 +1,5 @@
+#Botão para escolha de personagens
+show_button = tk.Button(root, text="Barbie", command=escolher_personagem, background="gray", font("ADVERTURE",20,), bd=0, image=teste_image)
+
+#posição
+show_button.grid (row=1,column=1, padx=(25,0), pady=(75,0))
